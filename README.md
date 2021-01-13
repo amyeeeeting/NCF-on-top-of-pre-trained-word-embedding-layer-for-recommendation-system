@@ -4,9 +4,10 @@ Ranking item_id for each user_id and compare the result with those item_id that 
 To evaluate the result, I use mean reciprocal rank(mrr) as the final output.
 
 # Input & Output
-Input: a. A dictionary of user id : [list of item_id]
+Input: 
+a. A dictionary of user id : [list of item_id]
 
-       b. a dictionary of item_id： item's descriptions(str)
+b. a dictionary of item_id： item's descriptions(str)
        
 Output: mrr of the NCF model
 

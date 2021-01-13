@@ -227,3 +227,5 @@ def mean_reciprocal_rank(rs):
 
 mrr=mean_reciprocal_rank(hits)
 print(mrr)
+
+return mrr

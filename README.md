@@ -5,9 +5,12 @@ To evaluate the result, I use mean reciprocal rank(mrr) as the final output.
 
 # Input & Output
 Input: a. A dictionary of user id : [list of item_id]
+
        b. a dictionary of item_id： item's descriptions(str)
+       
 Output: mrr of the NCF model
 
 # result
 mrr without word embedding: 0.03915
+
 mrr with word embedding : 0.04581
